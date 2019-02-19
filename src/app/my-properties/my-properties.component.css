@@ -1,0 +1,100 @@
+/* Services - Listing Screen */
+.sell_box {
+	background: #1a93ce;
+	padding: 50px 20px;
+	background-size: 100%;
+}
+.sell_box h2 {
+	border: solid #fff 2px;
+	padding: 20px 49px;
+	margin: 0 auto;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase
+}
+
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+	border: 1px solid#1a93ce;
+	white-space: nowrap
+}
+
+td, th {
+  text-align: left!important;
+  border: none!important;
+  padding: 8px 10px!important;
+  white-space: normal;
+}
+
+td a{color: #333333;}
+
+tr th{background-color: #1a93ce; color: #fff;}
+.mh-browse-estate{margin-top: 50px; overflow:auto;}
+.mh-button-transparent{background: transparent; border:none;}
+
+
+.mh-user-pagination {
+	text-align: center;
+	list-style: none;
+	margin-top: 30px;
+	padding-left: 0px
+}
+
+.mh-user-pagination li {
+	display: inline-block;
+	padding: 5px 12px;
+	margin: 0 6px;
+	cursor: pointer;
+	border: 1px solid #29aae3;
+}
+
+.mh-user-pagination li:hover, .mh-user-pagination li:focus, .mh-user-pagination li:active{
+	background: #29aae3;
+	color: #fff;
+}
+
+.Properties-img{max-width:110px}
+
+::ng-deep tr:nth-child(even){
+	background:#e6e6e6;
+}
+
+::ng-deep.pagination
+{
+	display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+    margin-top: 1em;
+    margin: 20px auto;
+    display: table;
+	width: auto;
+	text-align: center;
+}
+
+::ng-deep ul.pagination li{
+	display: inline-block;
+}
+
+
+
+@media screen and (max-width:600px){
+	.Properties-img{max-width:80px}
+}
+
+.no-data-avilable{
+	margin: 3em;
+	font-size: 1.5em;
+	text-align: center !important;
+}
+
+.mh-browse-estate__cell-icon{
+	cursor: pointer;
+}
+.mh-browse-estate__cell-icon i{
+	cursor: pointer;
+}
